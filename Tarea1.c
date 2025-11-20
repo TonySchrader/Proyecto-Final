@@ -10,13 +10,6 @@ int totalOyentes;
 void main()
 {
     leerVotos();
-
-    int i;
-    printf("\nResumen de votos:\n");
-    for (i = 0; i < totalOyentes; i++)
-    {
-        printf("Oyente %d: %d %d %d\n", i, voto1[i], voto2[i], voto3[i]);
-    }
 }
 
 /*tarea 1*/
