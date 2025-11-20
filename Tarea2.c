@@ -17,12 +17,6 @@ void main()
 
     leerVotos();
     calcularVotos();
-
-    printf("\nResumen de votos:\n");
-    for (i = 0; i < totalOyentes; i++)
-    {
-        printf("Oyente %d: %d %d %d\n", i, voto1[i], voto2[i], voto3[i]);
-    }
 }
 
 /*Tarea 1*/
